@@ -1,0 +1,1798 @@
+// document.getElementById("root").innerHTML = "Hello";
+// console.log("Hey");
+// console.log(typeof (123));
+// console.log(typeof ("Hi"));
+// console.log(typeof (12.213));
+
+
+
+// console.log("hey TiGER");
+
+// var num = 15;
+// var numAgain = num++ + 5;
+// console.log(num);
+// console.log(numAgain);
+// var res = numAgain++;
+// console.log(numAgain);
+// console.log(numAgain++);
+// console.log(res);
+
+// let n=12;
+// let b=n++;
+// console.log(n++);
+
+// console.log("Hi TiGER");
+
+// var num = 15;
+// var numAgain = ++num + 5;
+// console.log(num);
+// console.log(numAgain);
+// var res = ++numAgain;
+// console.log(numAgain);
+// console.log(++res);
+
+// console.log("Hi TiGER");
+
+// var num = 15;
+// var numAgain = num-- + 5;
+// console.log(num);
+// console.log(numAgain);
+// var res = numAgain--;
+// console.log(numAgain);
+// console.log(numAgain--);
+// console.log(res);
+
+// console.log("Hi TiGER");
+
+// var num = 15;
+// var numAgain = --num + 5;
+// console.log(num);
+// console.log(numAgain);
+// var res = --numAgain;
+// console.log(numAgain);
+// console.log(--res);
+
+
+
+// var a = 10;
+// var b = 20;
+
+// console.log(a == b);
+// console.log(a != b);
+// console.log(a >= b);
+// console.log(a <=  b);
+
+
+
+// console.log("Hello TiGER !!!");
+// console.log(9**3);
+
+
+
+// var a = -3;
+// var b = 5;
+
+// a = a + b;   // 2=-3+5
+// b = a - b;   // -3=2-5
+// a = a - b;   // 5=2-(-3)
+
+// console.log("a = " + a);
+// console.log("b = " + b);
+
+// var a = 5;
+// var b = 3;
+
+// a = a + b;
+// b = a - b;
+// a = a - b;
+// console.log(a);
+// console.log(b);
+
+
+
+
+// var age = 17;
+// (age >= 18) ? console.log("u can vote") : console.log("u can't vote");
+// console.log((age <= 18) ? "u can vote" : "u can't vote");
+
+
+
+
+//AREA...
+
+// var area = 'circle';
+// var area = 'rectangle';
+// var area = 'triangle';
+// var area = 'square';
+
+// var PI = 3.142, l = 5, b = 4, r = 3;
+
+// if (area == 'circle') {
+//     console.log("Area of Circle is = " + PI * r ** 2);
+// } else if (area == 'rectangle') {
+//     console.log("Area od Rectangle is = " + l * b);
+// } else if (area == 'triangle') {
+//     console.log("Area of Triangle is = " + (l * b) / 2);
+// } else {
+//     console.log("Please Enter valid Data");
+// }
+
+
+
+
+
+
+// var area = 'circle';
+// var area = 'rectangle';
+// var area = 'triangle';
+// var area = 'square';
+
+// var PI = 3.142, l = 5, b = 4, r = 3;
+
+// switch (area) {
+//     case 'circle':
+//         console.log("Area of Circle is = " + PI * r ** 2);
+//         break;
+
+//     case 'rectangle':
+//         console.log("Area od Rectangle is = " + l * b);
+//         break;
+
+//     case 'triangle':
+//         console.log("Area of Triangle is = " + (l * b) / 2);
+//         break;
+
+//     default:
+//         console.log("Please Enter valid Data");
+// }
+
+
+
+
+
+// for (let i = 1; i <= 5; i++) {
+//     debugger;
+//     console.log(i);
+// }
+
+
+
+// var num = 8;
+// for (let i = 1; i <= 10; i++) {
+//     res = num * i;
+//     console.log(res);
+// }
+
+
+
+// function add(a, b) {
+//     return sum = a + b;
+// }
+// let res = add(6, 3);
+// console.log(res);
+// OR
+// add(2,3);
+// console.log(sum);
+
+
+
+
+
+// SCOPING...
+
+// function scop() {
+//     var a = 10;
+//     var a = 15;
+
+//     let b = 20;
+//     b = 25;
+
+//     const c = 30;
+//     // c = 20;
+
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+// }
+
+// scop();
+
+
+
+
+
+// DEFAULT PARAMETER...
+
+// function add(a, b = 3) {
+//     return sum = a + b;
+// }
+// console.log(add(5, 5));
+
+
+
+
+
+
+// Array....
+
+
+// const arr = ['aanna', 'aakka', 'nana', 'maai', 'rupa'];
+
+// console.log(arr.length);
+
+
+// // FOR LOOP..
+
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
+
+
+// FOR IN LOOP...
+
+// for (e in arr) {
+//     console.log(e);    // will give u index of array
+// }
+
+
+// FOR OF LOOP...
+
+// for (e of arr) {
+//     console.log(e);
+// }
+
+
+
+
+// const arr = ['aanna', 'aakka', 'nana', 'maai', 'rupa'];
+
+// arr.forEach((e, i, arr) => {
+//     console.log(i + ": " + e + " [Complete Array => [" + arr + "]");
+// })
+
+
+
+
+// PUSH METHOD...
+
+// const arr = ['aanna', 'aakka', 'nana', 'maai', 'rupa'];
+// console.log(arr);
+// arr.push("balya");
+// const data = arr;
+// console.log(data);
+
+
+
+
+// UNSHTFT METHOD...
+
+
+// const arr1 = [1, 2, 3, 4, 5];
+// const arr2 = [6, 7, 8, 9, 10];
+
+// arr1.push(arr2);
+// console.log(arr1);
+
+// arr1.unshift(arr2);
+// console.log(arr1);
+
+
+
+
+
+// POP METHOD...
+
+
+//  const arr = ['aanna', 'aakka', 'nana', 'maai', 'rupa'];
+
+//  console.log(arr);
+//  console.log(arr.pop());
+//  console.log(arr);
+
+
+
+
+
+// SPLICE...
+
+
+// const arr = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+
+// const res1 = arr.splice(1, 3);
+// console.log(arr);
+// console.log(res1);
+
+// const res2 = arr.splice(0, 1, 'JAN');
+// console.log(arr);
+
+// const res3 = arr.splice(2, 1, 'MARCH');
+// console.log(arr);
+
+
+
+
+// IndexOf...
+
+// const arr = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+
+
+// const indexOfMonth = arr.indexOf('oct');
+// console.log(indexOfMonth);
+
+// if (indexOfMonth != -1) {
+//     arr.splice(indexOfMonth, 1, 'OCT');
+//     console.log(arr);
+// } else {
+//     console.log("No Such Data found");
+// }
+
+
+
+
+
+// DELETE JUN month....
+
+// const arr = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+
+// const res = arr.indexOf('jun');
+// if (res != -1) {
+//     arr.splice(res, 1);
+//     console.log(arr);
+// }
+
+
+
+
+
+// MAP.....
+
+// const arr = [1,5, 4, 9, 16, 25, 49, 64, 81];
+
+// const res = arr.map((e, i, ar) => {
+//     return Math.sqrt(e);
+// });
+// console.log(res);
+
+
+// const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// function result(arr) {
+//     let even = 0;
+//     let oddSum = 0;
+//     for (let i = 0; i <= arr.length; i++) {
+//         if (arr[i] % 2 == 0) {
+//             even += arr[i];
+//         } else if (arr[i] % 2 == 1) {
+//             oddSum += arr[i];
+//         }
+//     }
+//     return [even, oddSum];
+// };
+// const [even, oddSum] = result(array);
+
+// console.log(even);
+// console.log(oddSum);
+
+
+
+// const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// function arraySum(arr) {
+//     let evenSum = 0;
+//     let oddSum = 0;
+//     for (let i = 0; i <= arr.length; i++) {
+//         if (arr[i] % 2 == 0) {
+//             evenSum = evenSum + arr[i];
+//         } else if (arr[i] % 2 == 1) {
+//             oddSum = oddSum + arr[i];
+//         }
+//     }
+//     return [evenSum, oddSum]
+// };
+// const [evenSum, oddSum] = arraySum(array)
+
+// console.log("Sum of Even numbers of given Array = " + evenSum);
+// console.log("Sum of Even numbers of given Array = " + oddSum);
+
+
+
+
+
+// const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// function sum(array) {
+//     let evenSum = 0;
+//     let oddSum = 0;
+//     for (let i = 0; i < array.length; i++) {
+//         if (array[i] % 2 == 0) {
+//             evenSum = evenSum + array[i];
+//         } else if (array[i] % 2 == 1) {
+//             oddSum = oddSum + array[i];
+//         }
+//     }
+//     return [evenSum, oddSum];
+// }
+// const [evenSum, oddSum] = sum(array);
+// console.log(evenSum);
+// console.log(oddSum);
+
+
+
+
+
+
+// const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// function sum(arr) {
+//     let evenSum = 0;
+//     let oddSum = 0;
+
+//     for (let i = 0; i <= arr.length; i++) {
+//         if (arr[i] % 2 == 0) {
+//             evenSum = evenSum + arr[i];
+//         } else if (arr[i] % 2 == 1) {
+//             oddSum = oddSum + arr[i];
+//         }
+//     }
+//     return [evenSum, oddSum];
+// }
+
+// const [evenSum, oddSum] = sum(array);
+// console.log(evenSum);
+// console.log(oddSum);
+
+
+
+
+
+
+
+
+
+// REDUCE...
+
+
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// const result = arr.map(e => e * 2)
+// .filter(e => e >= 10)
+// .reduce((c, e) => c + e);
+// console.log(result);
+
+// const accumulator = result.reduce((a, e) => {
+//     return a + e;
+// });
+
+// console.log(result);
+// console.log(accumulator);
+
+
+
+
+// const arr = [5, 6, 2];
+
+// const result = arr.reduce((c, e) => {
+//     return c + e;
+// }, 7);
+// console.log(result);
+
+
+
+
+
+
+
+
+// 2D_Array...
+
+// const arr = [
+//     ['yadav', 'wagh'],
+//     ['surekha', 'wgah'],
+//     ['nana', 'wagh'],
+//     ['rupa', 'wagh'],
+//     ['sonali', 'wagh'],
+// ];
+// const result = arr.reduce((c, e) => {
+//     return c.concat(e);
+// });
+// console.log(result);
+
+
+
+
+
+
+
+// const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// function sum(arr) {
+//     let evenSum = 0;
+//     let oddSum = 0
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] % 2 == 0) {
+//             evenSum = evenSum + arr[i];
+//         } else if (arr[i] % 2 == 1) {
+//             oddSum = oddSum + arr[i];
+//         }
+//     }
+//     return [evenSum, oddSum];
+// }
+
+
+// const [evenSum, oddSum] = sum(array);
+// console.log(evenSum);
+// console.log(oddSum);
+
+
+
+
+
+
+// const arr = [
+//     ['yadav', 'wagh'],
+//     ['surekha', 'wgah'],
+//     ['nana', 'wagh'],
+//     ['rupa', 'wagh'],
+//     ['sonali', 'wagh'],
+// ];
+
+// const result = arr.reduce((c, e) => {
+//     return c.concat(e);
+// });
+// console.log(result);
+
+
+
+
+
+
+// indexOf ....
+
+
+// const name = "Dnyaneshwar Wagh";
+// const myName = new String("Dnyaneshwar Wagh");
+
+// console.log(name);
+// console.log(name.length);
+// console.log(myName);
+
+// console.log(name.indexOf("Wagh"));
+// console.log(name.indexOf("wagh"));           // w or W are difference cause JS is case sensetive
+
+
+
+
+
+// slice.....
+
+// const str = 'Dnayneshwar Yadav Wagh';
+
+// let response = str.slice(1, 6);
+// console.log(response);
+
+
+
+
+
+// SubString...
+
+// const str2 = 'Dnayneshwar Yadav Wagh';
+
+// const res1 = str2.substring(1, 6);
+// const res2 = str2.substr(-4);
+// console.log(res1);
+// console.log(res2);
+
+
+
+
+
+
+
+// REPLACE...
+
+
+// const arr = "Hey Tiger ! How are you Tiger ?";
+
+// const response1 = arr.replace('Tiger', 'TiGER');
+// const response2 = arr.replaceAll('Tiger', 'TiGER');
+// console.log(response1);
+// console.log(response2);
+
+
+
+
+
+// CASE TRANSSORM....
+
+
+// let str = 'HELLO WORLD';
+// const res = str.toLowerCase(str);
+// console.log(res);
+
+// let str1 = 'hello world';
+// let res1 = str1.toUpperCase(str1);
+// console.log(res1);
+
+
+
+
+
+
+
+
+// DATE & TIME....
+
+// Real Date...
+// const res = new Date().toLocaleString();
+// console.log(res);
+// document.getElementById('root').innerHTML = res;
+
+// Customize Date..
+// const date = new Date(1991, 7, 1, 16, 30, 0, 0).toLocaleString();
+// console.log(date);
+// document.getElementById('root').innerHTML = date;
+
+
+
+// const date = new Date();
+// console.log(date.getFullYear());
+// console.log(date.getMonth());
+// console.log(date.getDate());
+// console.log(date.getDay());
+
+
+
+
+
+
+// Real Live Time...
+
+// (
+//     function () {
+//         setInterval(() => {
+//             const res = new Date().toLocaleTimeString();
+//             document.getElementById('root').innerHTML = res;
+//         }, 1000)
+//     }
+// )();
+
+
+
+
+
+// MATH...
+
+
+// get PI CSSMathValue.apply..
+
+// console.log(Math.PI);
+
+
+// const num1 = 10.21923;
+// const num2 = 10.500001;
+
+// console.log(Math.round(num1));
+// console.log(Math.round(num2));
+
+
+
+
+
+
+
+
+// GET POWER of DIGIT's....
+
+
+// console.log(Math.pow(2,3));
+// console.log(Math.pow(3,3));
+
+
+
+
+// GET SQUARE ROOT....
+
+// console.log(Math.sqrt(16));
+
+
+
+// console.log(Math.random());
+// console.log(Math.random() * 20);
+// console.log(Math.floor(Math.random()*20));
+
+
+
+
+// console.log(window.location);
+
+
+
+
+
+
+// DOM...BOM...models...
+
+
+// alert(location.href);
+// if (confirm('Want to go to YouTube ?')) {
+//     location.href = 'https://www.youtube.com/'
+// }
+
+
+
+
+
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// function sum(array) {
+//     let even = 0;
+//     let odd = 0;
+//     for (let i = 0; i < array.length; i++) {
+//         if (array[i] % 2 == 0) {
+//             even = even + array[i];
+//         } else if (array[i] % 2 == 1) {
+//             odd = odd + array[i];
+//         }
+//     }
+//     return [even, odd];
+// }
+
+// const [even, odd] = sum(arr);
+// console.log(even);
+// console.log(odd);
+
+
+
+
+
+// alert(location.href);
+// if(confirm('want to Youtube')){
+//     location.href='https://www.youtube.com/'
+// }
+
+
+
+
+// console.log('tiger');
+// const onClick = () => {
+//     document.getElementById('nana').innerHTML = 'Hello TiGER';
+// }
+
+// console.log(document.getElementsByClassName('nana'));
+
+
+
+
+
+
+
+
+
+// console.log('hiiiii');
+
+
+
+
+
+// const onClick = () => {
+//     document.getElementById('nana').innerHTML = 'TIGER';
+// }
+
+
+// console.log(document.getElementsByName('gender'));
+
+
+
+
+// Fun_1...
+
+
+
+
+// fun_2...
+
+// const onClick = () => {
+//     alert("This is Fun-2");
+// }
+
+// fun_3...
+
+// const res = document.getElementById('fun_3');
+// res.onclick = function () {
+//     alert('This isFun_3');
+// }
+
+
+// fun_4...
+
+// const res1 = document.getElementById('fun_4');
+// res1.addEventListener('click', () => {
+//     alert("This is Fun_4");
+// })
+
+
+
+// const res1 = document.getElementById('fun_1');
+// res1.addEventListener('click', (event) => {
+//     // alert('fun_1');
+//     console.log(event);
+//     console.log(event.target);
+//     console.log(event.type);
+// })
+
+// const onClick = (event) => {
+//     alert('this is fun_2');
+// }
+
+// const res2 = document.getElementById('fun_3');
+// res2.onclick = function () {
+//     alert('fun_3');
+// }
+
+
+
+
+
+
+
+// MouseDown()...MouseUp()....Method...
+
+// console.log('loggg');
+
+// function m_down() {
+//     document.getElementById('p_tag').style.color = 'red';
+// }
+
+// function m_up() {
+//     document.getElementById('p_tag').style.color = 'yellow';
+// }
+
+
+
+// console.log('kl');
+
+
+// input Field....
+
+
+
+// const onChange = () => {
+//     const inputBox = document.getElementById('inp').value;
+//     const selectBox = document.getElementById('sel').value;
+//     console.log(`${inputBox} Like to Buy ${selectBox}`);
+//     document.getElementById('ans').innerHTML = `${inputBox} would like to Buy ${selectBox}`;
+// }
+
+
+
+
+// console.log('RR');
+
+// const onChange = () => {
+//     const inpValue = document.getElementById('inp').value;
+//     const selValue = document.getElementById('sel').value;
+//     document.getElementById('op').innerHTML = `${inpValue} want's to Buy ${selValue}`;
+// }
+
+
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const arr = [3, 35, 345, 45, 86, 32, 84, 78, 98, 15, 63, 65, 8, 70, 6, 53, 3];
+
+// function sum(arr) {
+//     let evenSum = 0;
+//     let oddSum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] % 2 == 0) {
+//             evenSum = evenSum + arr[i];
+//         } else if (arr[i] % 2 == 1) {
+//             oddSum = oddSum + arr[i];
+//         }
+//     }
+//     return [evenSum, oddSum];
+// }
+// const [evenSum, oddSum] = sum(arr);
+// console.log(evenSum);
+// console.log(oddSum);
+// document.getElementById('op1').innerHTML = `Sum of Even Number of Array = ${evenSum}`;
+// document.getElementById('op2').innerHTML = `Sum of Odd Number of Array = ${oddSum}`;
+
+
+
+
+
+
+
+// console.log('lok');
+
+
+// const data = document.getElementById('sel');
+// data.addEventListener('change', () => {
+//     const input = document.getElementById('inp').value;
+//     const select = document.getElementById('sel').value;
+//     document.getElementById('result').innerHTML = `${input} want to buy ${select} very soon`;
+// });
+
+
+
+// const data = document.querySelector('#div_1');
+
+// const result = () => {
+//     data.style.color = 'blue';
+//     data.style.fontSize = '20px';
+// }
+
+// data.addEventListener('click', result);
+
+
+
+
+
+// const data = document.getElementById('data_1');
+// const btn = document.getElementById('btn_1');
+
+// const change = () => {
+//     data.innerHTML = 'My old name is Nana';
+//     setTimeout(() => {
+//         data.innerHTML = 'My new name is TiGER';
+//     }, 3000);
+// }
+
+// btn.addEventListener('click', change);
+
+
+
+
+
+// const data = document.getElementById('data_1');
+// const btn = document.getElementById('btn_1');
+// const btnEvent = () => {
+//     document.getElementById('data_1').innerHTML = 'My old name is Nana';
+//     setTimeout(() => {
+//         document.getElementById('data_1').innerHTML = 'My new name is TiGER'
+//     }, 3000);
+// }
+// btn.addEventListener('click', btnEvent);
+
+
+
+
+
+
+
+// Events Happening..and how to get it...know with EVENT handler...
+
+// const btn = document.getElementById('btn_1');
+// const clkBtn = (e) => {
+//     console.log(e);
+//     console.log(e.target);
+//     console.log(e.target.type);
+// }
+// btn.addEventListener('click', clkBtn);
+
+
+
+
+
+
+// const div1 = document.getElementById('div_1');
+// const p1 = document.getElementById('p_1');
+// const changeColor1 = () => {
+//     p1.style.color = 'white';
+//     p1.style.backgroundColor = 'blue';
+// }
+// p1.addEventListener('mouseenter', changeColor1);
+// const changeColor2 = () => {
+//     p1.style.color = 'yellow';
+//     p1.style.backgroundColor = 'gray';
+// }
+// p1.addEventListener('mouseleave', changeColor2);
+
+
+
+
+
+
+// const p_data = document.getElementById('p_1');
+// const keyPress = () => {
+//     document.getElementById('p_1').innerHTML = `${event.key}`;
+// }
+
+
+
+
+
+// const onChange = () => {
+//     const inp_value = document.getElementById('inp').value;
+//     const sel_value = document.getElementById('select_item').value;
+//     console.log(`${inp_value} likes to eat ${sel_value} Daily`)
+//     document.getElementById('op').innerHTML = `${inp_value} likes to eat ${sel_value} Daily`;
+// }
+
+
+
+// WITH INLINE EVENT...
+
+// const onClick = () => {
+//     const inp_val = document.getElementById('inp').value;
+//     console.log(inp_val);
+//     document.getElementById('op').innerHTML = `${inp_val}`;
+// }
+
+
+
+// WITHOUT INLINE EVENT...
+
+// const select_item = document.getElementById('sel');
+// select_item.addEventListener('change', () => {
+//     const inp_item = document.getElementById('inp').value;
+//     const selected_item = document.getElementById('sel').value;
+//     const res=document.getElementById('result');
+//     res.innerHTML=`${inp_item} like to eat ${selected_item}`
+// })
+
+
+
+
+
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// function sum(arr) {
+//     let evenSum = 0;
+//     let oddSum = 0;
+//     for (i = 0; i < arr.length; i++) {
+//         if (arr[i] % 2 == 0) {
+//             evenSum = evenSum + arr[i];
+//         } else if (arr[i] % 2 == 1) {
+//             oddSum = oddSum + arr[i];
+//         }
+//     }
+//     return [evenSum, oddSum];
+// }
+// const [evenSum, oddSum] = sum(arr);
+// console.log(evenSum);
+// console.log(oddSum);
+// document.getElementById('p1').innerHTML=`Sum of even numbers in Array = ${evenSum}`;
+// document.getElementById('p2').innerHTML=`Sum of Odd numbers in Array = ${oddSum}`;
+
+
+
+
+
+// const btn1 = document.getElementById('btn');
+
+// const showName = () => {
+//     setTimeout(() => {
+//         document.getElementById('name').innerHTML = 'TiGER';
+//     }, 2000);
+// }
+
+// btn1.addEventListener('click', showName);
+
+
+
+// OBJECT LITERALS...
+
+
+// const data = {
+// name: 'Dnyaneshwar',
+//     age: 32,
+//     fun() {
+//         console.log(`My name is ${data.name} and my Age is ${data.age}`);
+//     }
+// }
+
+// data.fun();
+
+
+
+
+
+
+// console.log(this);
+
+
+
+// let msg1 = 'tiger';
+// function myName() {
+//     console.log(this.msg1);
+// }
+// myName();
+
+
+
+// let name = 'nana';
+// function myName() {
+//     console.log(this.name);
+// }
+// myName();
+
+
+// console.log(this);
+
+
+// let name = 'Hello';
+// function greet() {
+//     console.log(this.name);
+// }
+// greet();
+
+
+
+// var msg = 'nana';
+// function tm() {
+//     console.log(this.name);
+// }
+// tm();
+
+
+// function msg() {
+//     console.log(this.name);
+// }
+// msg();
+
+
+
+
+// let name = 'baba';
+// function fun() {
+//     console.log(this.name);
+// }
+// fun();
+
+
+
+// let name = 'Himmat';
+// function baba() {
+//     console.log(this.name);
+// }
+// baba();
+
+// let hehe = 'Hahahahaha';
+// function smile() {
+//     console.log(this.hehe);
+// }
+// smile();
+
+
+// var tal = 'Hahahahaha';
+// function smile() {
+//     console.log(this.tal);
+// }
+// smile();
+
+
+// const name = 'nana';
+// function myName() {
+//     console.log(name);
+// }
+// myName();
+
+
+
+// const obj = {
+//     age: 32,
+//     myName() {
+//         console.log(this.age);
+//     }
+// }
+// obj.myName();
+
+
+
+
+// const obj = {
+//     age: 32,
+//     m:() => {
+//         console.log(this.age);
+//     }
+// }
+// obj.m();
+
+
+// const obj = {
+//     age: 32,
+//     myName() {
+//         console.log(this.age);
+//     }
+// }
+// obj.myName();
+
+
+
+
+
+// const data = {
+//     nameData: {
+//         fName: "Dnyaneshwar",
+//         lName: "Wagh"
+//     },
+//     age: 32,
+//     education: "BE in Computer Science",
+//     getData() {
+//         console.log(`My Full name is ${this.nameData.fName} ${this.nameData.lName} and i hav done my Graduation in ${this.education}`);
+//     }
+// }
+// data.getData();
+
+
+
+
+
+
+// ARRAY DESTRUCTURING...
+
+
+// const arr = ['aanna', 'aakka', 'nana', 'maai', 'rupa'];
+// const [a, b, c, d, e] = arr;           // Destructuring of Array
+// console.log(c.length);               // to get the position of data
+
+
+
+
+
+// OBJECT DESTRUCTURING...
+
+
+// let obj = {
+//     name: "nana",
+//     age: 32,
+//     education: "BE in Computer Science"
+// }
+// [1]
+// const myName = obj.name;
+// console.log(myName);
+
+// [2]
+// let { name,age,education } = obj;
+// console.log(name);
+// console.log(age);
+
+
+
+
+// const color = ['red', 'yellow', 'green', 'blue', 'gray'];
+// const myColor = [...color, 'pink', 'white', 'orange'];
+
+// console.log(myColor);
+
+
+
+
+
+
+
+// ES7...features.....2016
+
+
+// includes...Method...
+
+
+// const color = ['red', 'yellow', 'green', 'blue', 'gray'];
+
+// const res1 = color.includes('purple');
+// const res2 = color.includes('blue');
+// console.log(res1);
+// console.log(res2);
+
+
+
+
+
+
+
+
+// ES8...features.....2017
+// entries methode
+
+// const obj = { name: 'NaNa', age: 27 };
+// console.log(obj);
+// console.log(Object.entries(obj));          // converts object into Array...
+// console.log(Object.values(obj));           // to get values of object... 
+// console.log(Object.keys(obj));             // to get keys of object...
+
+
+
+
+
+
+// spread operator...
+
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// const sum = [...arr];
+// console.log(sum);
+
+// const res = sum(...arr);
+// console.log(res);
+
+
+
+
+
+
+// flat method...to reduce dimensions of Array
+
+// const arr = [
+//     ['a', 'b'],
+//     ['c', 'd'],
+//     ['e', 'f'],
+//     ['g', ['h', ['i', 'j']]],
+//     ['k', 'l']
+// ]
+// // console.log(arr.flat(2));
+// // console.log(arr.flat(Infinity));
+
+
+
+// const add = (a, b) => {
+//     return a + b;
+// }
+// const sub = (a, b) => {
+//     return a - b;
+// }
+
+// const mul = (a, b) => {
+//     return a * b;
+// }
+
+// const div = (a, b) => {
+//     return a / b;
+// }
+
+// const calculation = (num1, num2, operation) => {
+//     return operation(num1, num2);
+// };
+// const result = calculation(4, 4, sub);
+// console.log(result);
+
+
+
+
+
+
+// SCOPPING....
+
+// let a = 'hello';
+
+// const greet1 = () => {
+//     let b = 'guys';
+//     function greet2() {
+//         let c = 'how are you ?';
+//         console.log(a+b+c);
+//     }
+//     greet2();
+// }
+// greet1();
+
+
+
+
+
+// CLOSURE...
+
+// const outerFunction = (a) => {
+//     let b = 10;
+//     const innerFunction = () => {
+//         console.log(`sum of this is = ${a + b}`);
+//     }
+//     return innerFunction;
+// }
+// const result = outerFunction(5);
+// // console.log(outerFunction(5));
+// // result();
+// console.dir(result);
+
+
+
+
+
+
+// Synchronus  OR Asynchronus functions.....
+
+
+// const fun_1 = () => {
+//     fun_3();
+//     console.log('fun 1 is called');
+// }
+
+// const fun_2 = () => {
+//     console.log('fun 2 is called');
+// }
+
+// const fun_3 = () => {
+//     fun_2();
+//     setTimeout(() => {
+//         console.log('fun 3 is called');
+//     }, 2000);
+// }
+// fun_1();
+
+
+
+
+
+// closure...
+
+
+// const sum = (a, b, c) => {
+//     return {
+//         getSumTwo: function () {
+//             return a + b;
+//         },
+//         getSumThree: function () {
+//             return a + b + c;
+//         }
+//     }
+// }
+// const store = sum(3, 4, 5);
+// const two = store.getSumTwo();
+// console.log(two);
+// console.log(store.getSumThree());
+
+
+
+
+
+// const datas = [
+//     { name: "nana", profession: "Software Engineer" },
+//     { name: "spyder", profession: "Accountant" }
+// ];
+
+// function getData() {
+//     setTimeout(() => {
+//         let output = "";
+//         datas.forEach((data, index) => {
+//             output += `<li>${data.name}</li>`;
+//         });
+//         document.body.innerHTML = output;
+//     }, 1000);
+// }
+
+
+// function getData2(newData, getData) {
+//     setTimeout(() => {
+//         datas.push(newData);
+//         getData();
+//     }, 2000);
+// }
+
+// PROMISE...
+// function getData2(newData) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             datas.push(newData);
+//             let error = false;
+//             if (!error) {
+//                 resolve();
+//             } else {
+//                 reject("Kuch sahi nahi hai...");
+//             }
+//         }, 1000);
+//     })
+// }
+
+// // getData2({ name: "khemu", profession: "Accountant" }).then(getData).catch(err => console.log(err));
+
+
+// // ASYNC...AWAIT....
+// async function showData() {
+//     await getData2({ name: "khemu", profession: "Accountant" });
+//     getData();
+// }
+// showData();
+
+
+
+
+
+// Currying...
+
+// type - 1...
+// function sum(num1) {
+//     return function (num2) {
+//         return function (num3) {
+//             console.log(num1 + num2 + num3);
+//         }
+//     }
+
+// }
+
+
+// type - 2....
+// const sum = (num1) => (num2) => (num3) => console.log(num1 + num2 + num3);
+
+// sum(3)(4)(5);          /// Currying... 
+
+// const sum = (num1) => (add) => (num3) => console.log(num1, add, num3);
+
+// function data() {
+//     let a = 20;
+//     let b = 30;
+//     return a + b;
+// }
+
+// sum(2)(data())(5);
+
+
+
+
+
+
+// convert object into JSON...
+
+// const obj = {
+//     name: "Dnyaneshwar",
+//     age: "27",
+//     education: "BE in CS",
+//     profession: "Software Developer"
+// }
+// console.log(obj);
+
+
+
+
+// // Convert obj to JSON...
+
+// const objToJSON = JSON.stringify(obj);
+// console.log(objToJSON);
+
+// // Convert again JSON into obj...
+
+// const jsonToObj = JSON.parse(objToJSON);
+// console.log(jsonToObj);
+
+
+
+
+
+// async function joke() {
+//     const res = await fetch("https://icanhazdadjoke.com/");
+//     console.log(res);
+//     const data = await res.json();
+//     // console.log(data);
+// }
+
+// joke();
+
+
+
+
+
+// const btn = document.getElementById('btn');
+// const showMSG = () => {
+//     document.getElementById('msg').innerHTML = 'Clicked';
+// }
+// btn.addEventListener('click', showMSG);
+
+
+
+
+
+// const joke = document.getElementById('joke');
+// const jokeBtn = document.getElementById('btn');
+
+// const getJoke = () => {
+//     const setHeader = {
+//         headers: {
+//             accept: "application/json"
+//         }
+//     }
+
+//     fetch("https://icanhazdadjoke.com/", setHeader)
+//         .then((response) => {
+//             console.log(response.json())
+//         })
+//         .then((data) => {
+//             console.log(data.joke);
+//         })
+// }
+
+// jokeBtn.addEventListener('click', getJoke);
+// getJoke();
+
+
+
+
+
+
+
+// const joke = document.getElementById('joke');
+// const jokeBtn = document.getElementById('btn');
+
+// async function fetchDadJoke() {
+//     try {
+//         const response = await fetch('https://icanhazdadjoke.com/', {
+//             headers: {
+//                 'Accept': 'application/json'
+//             }
+//         });
+
+//         if (response.ok) {
+//             const data = await response.json();
+//             joke.innerHTML = data.joke;
+//         } else {
+//             throw new Error('Failed to fetch dad joke');
+//         }
+//     } catch (error) {
+//         console.error(error);
+//         return 'An error occurred while fetching a dad joke';
+//     }
+// }
+
+// jokeBtn.addEventListener('click', fetchDadJoke());
+// fetchDadJoke();
+
+
+
+
+
+
+
+// const jokeText = document.getElementById('joke');
+// const getJokeButton = document.getElementById('btn');
+
+// const fetchDadJoke = async () => {
+//     try {
+//         const response = await fetch('https://icanhazdadjoke.com/', {
+//             headers: {
+//                 'Accept': 'application/json'
+//             }
+//         });
+
+//         const data = await response.json();
+//         jokeText.innerHTML = data.joke
+//     }
+//     catch (error) {
+//         console.error(error);
+//     }
+// }
+
+// getJokeButton.addEventListener('click', async () => {
+//     const joke = await fetchDadJoke();
+// });
+
+// fetchDadJoke();
+
+
+
+// const textBtn = document.getElementById('joke');
+// const jokeBtn = document.getElementById('btn');
+
+// const getJoke = async () => {
+//     try {
+//         const appFunction = {
+//             headers: {
+//                 Accept: 'application/json'
+//             }
+//         }
+//         const resp = await fetch('https://icanhazdadjoke.com/', appFunction);
+//         const result = await resp.json();
+//         textBtn.innerHTML = result.joke;
+//     }
+
+//     catch (err) {
+//         let arr = 'No data found';
+//         textBtn.innerHTML = arr;
+//     }
+// }
+
+// getJoke();
+// jokeBtn.addEventListener('click', () => {
+//     getJoke();
+// });
+
+
+
+
+
+
+
+// let n = '400';
+// console.log(+n);
+// console.log(Number(n));
+
+
+
+
+// to get attributes of Elements of HTML
+
+// const data = document.querySelector('#nana');
+// const res = data.getAttribute('data-wagh');
+// console.log(res);
+
+
+
+
+
+// const a = 10;
+// b = a;
+// console.log(b);
+
+
+
+
+
+// var age = 10;
+// var age = 20;
+// console.log(age);
+
+
+// let name = 'nana';
+// name = "wagh";
+// console.log(name);
+
+
+// const price = 100;
+// price = 300;
+// console.log(price);
+
+
+
+
+
+// let a = 10;
+// console.log(a);
+
+// var a;
+// let b;
+// const c;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+
+
+// {
+//     let a = 10;
+//     console.log(a);
+// }
+// {
+//     let a = 20;
+//     a = 30;
+//     console.log(a);
+// }
+// var b = 10;
+// console.log(b);
+// {
+//     console.log(b);
+//     var b = 30;
+//     console.log(b);
+// }
+// console.log(b);
+// console.log("CONST VARIABLE...");
+// const c = 10;
+// {
+//     const c = 20;
+//     // c = 30 ......Can't reasign variable
+//     console.log(c);
+// }
+
+
+
+
+
+// let a=10;
+//  a=23;
+// console.log(a);
+
+
+
+
+
+
+// const student={
+//     name:'Dnyaneshwar',
+//     qualification:"BE in Computer Science",
+//     age:30,
+//     salary:500000
+// }
+
+// console.log(student.age+1);
+
+
+
+
+
+
+console.log('sd');
+
